@@ -13,7 +13,7 @@ var mins = 1;
         currentSeconds = secs % 60;
         if(currentSeconds <= 9) currentSeconds = "0" + currentSeconds;
         secs--;
-        $("#display").append(currentMinutes + ":" + currentSeconds) ; //Set the element id you need the time put into.
+        $("#display").append(currentMinutes + ":" + currentSeconds) ; 
         if(secs !== -1) setTimeout('Decrement()',1000);
     }
   

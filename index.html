@@ -12,7 +12,7 @@
   </head>
   <body>
     <!--Game Title -->
-    <div class="container-fluid">
+    <div class="container-fluid" id="data">
       <div class="row">
         <div class="col-md-12">
           <h1>Basketball Trivia</h1>
@@ -26,11 +26,12 @@
         <h3 class="time-left">Time Remaining: <span id="display"></span>   </h3>
       </div>
       
+      <div id = "data">
       <!--Question 1 -->
       <div class="row">
         <div class="col-md-6">
           <div class="panel panel-warning">
-            <div class="panel-heading">What coach has the most NBA rings?</div>
+            <div class="panel-heading questionOne">What coach has the most NBA rings?</div>
             <div class="panel-body" id="soFar">
               <label>
                 <input type="radio" name="answers[1]" value="A">
@@ -101,7 +102,7 @@
 
                <label>
                 <input type="radio" name="answers[1]" value="B">
-                Hakeem Olajuwom & Sam Bowie
+                Hakeem Olajuwon & Sam Bowie
               </label>
 
               <br>
@@ -113,6 +114,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
 
 
